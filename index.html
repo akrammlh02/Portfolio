@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Header section -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h2 class="title">Web Development</h2>
+            </div>
+            <div class="div1">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about-me">About me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#project">Projects</a></li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <section class="first-section" id="about-me">
+            <div>
+                <h2>About me</h2>
+                <p class="text">
+                    I am a Student Learing web dev, this is my first project using <span>HTML</span> and
+                    <span>CSS</span>
+                </p>
+            </div>
+            <div>
+                <img class="image" src="/images/golf.jpg">
+
+            </div>
+        </section>
+
+        <section class="second-section" id="project">
+            <h2>Projects</h2>
+            <div class="project">
+                <div class="card">
+                    <h4>Portfolio website</h4>
+                    <p>this is a simple portfolio</p>
+                </div>
+                <div class="card">
+                    <h4>website</h4>
+                    <p>this is a simple website</p>
+                </div>
+            </div>
+
+        </section>
+
+        <hr>
+        <section class="second-section" id="skills">
+            <h2>Skills</h2>
+            <div class="project skill">
+                <div class="card ">
+                    HTML
+                </div>
+                <div class="card">
+                    CSS
+                </div>
+                <div class="card">
+                    Problem solving
+                </div>
+            </div>
+
+        </section>
+
+        <section class="contact" id="Contact">
+            <h2>Contact Me</h2>
+            <form>
+                <div>
+                    <label for="name">Full Name :</label>
+                    <input type="text" name="name" placeholder="this is name" required>
+                </div>
+                <div>
+                    <label for="email">Email : </label>
+                    <input type="email" name="email" id="email" required>
+
+                </div>
+                <div>
+                    <label for="message">Message :</label>
+                    <textarea name="message" required>hello</textarea>
+                </div>
+                <div class="btn">
+                    <input class="button" type="submit" value="Send">
+
+                </div>
+            </form>
+            <hr>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy 2026 Akram, All rights reserved</p>
+    </footer>
+</body>
+
+</html>
